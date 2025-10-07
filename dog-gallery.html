@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Gallery 🐾</title>
+  <style>
+    body {
+      background-color: #fffaf3;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 20px;
+      color: #333;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+      background-color: antiquewhite;
+      border-radius: 10px;
+    }
+
+    .container img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .container img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Dog Gallery 🐶</h1>
+  <div class="container">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*" alt="Dog 1">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/best-guard-dogs-1650302456.jpeg?crop=0.754xw:1.00xh;0.0651xw,0&resize=1200:*" alt="Dog 2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE7u2gukdvk3H1mvVKFTIxe_M0XkpDIhbhdA&s" alt="Dog 3">
+    <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2JlYWdsZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMH19fQ==" alt="Dog 4">
+    <img src="https://www.purina.in/sites/default/files/2020-11/Toy%20Dogs%20Everything%20You%20Need%20to%20KnowHERO.jpg" alt="Dog 5">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Js7N6e649aNcz4IJWmsZKnZ21ibv5OHJOg&s" alt="Dog 6">
+    <img src="https://cdn.mos.cms.futurecdn.net/ASHH5bDmsp6wnK6mEfZdcU.jpg" alt="Dog 7">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g0jKpurBW3aiff0Pan75DMhpZCHzXE3TgQ&s" alt="Dog 8">
+    <img src="https://money.com/wp-content/uploads/2024/03/Best-Small-Dog-Breeds-Pomeranian.jpg?quality=60" alt="Dog 9">
+  </div>
+</body>
+</html>
